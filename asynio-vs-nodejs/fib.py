@@ -6,4 +6,3 @@ def fib(n):
 
 
 timed_fib = log_execution_time(fib)
-timed_fib(33)
