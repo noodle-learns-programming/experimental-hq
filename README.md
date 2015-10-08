@@ -20,3 +20,12 @@ Simple is best:
 	http "https://graph.facebook.com/butchiso/feed?access_token=286986714771065|ECA9OaR83KSDtDOrDU-VIA8Xn5g&fields=id&limit=10"
 
 	http "https://graph.facebook.com/butchiso/feed?access_token=286986714771065|ECA9OaR83KSDtDOrDU-VIA8Xn5g&fields=id&limit=10" If-None-Match:"\"8060e0abdda8b72112add3f834a666601f24a63c\""
+
+
+# Clone 
+
+	git clone https://github.com/noodle-learns-programming/experimental-hq.git                                 
+	cd Web/                                           
+   	ln -s /home/tpphu/experimental-hq/javascript-on-browser js
+   	experimental-hq/
+   	git pull
