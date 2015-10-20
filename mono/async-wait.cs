@@ -12,7 +12,7 @@ namespace AsyncAwaitExample
  
            while (true)
            {
-               System.Threading.Thread.Sleep(2000);
+               //System.Threading.Thread.Sleep(2000);
                Console.WriteLine("Doing Stuff on the Main Thread...................");
            }
         }
@@ -32,11 +32,12 @@ namespace AsyncAwaitExample
         {
             int counter;
  
-            for (counter = 0; counter < 50000; counter++)
+            for (counter = 0; counter < 5000000; counter++)
             {
-                System.Threading.Thread.Sleep(100);
+                //System.Threading.Thread.Sleep(2000);
                 Console.WriteLine(counter);
             }
+            Console.WriteLine("Finished");
  
             return "Counter = " + counter;
         }
